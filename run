@@ -1,0 +1,3 @@
+kill -9 $(lsof -ti:4000) 
+yarn start 
+

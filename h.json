@@ -1,0 +1,15 @@
+{
+    "apps": [
+        {
+            "name": "learn",
+            "script": "index.js",
+            "instances": "max",
+            "exec_mode": "cluster",
+            "watch":".", 
+            "env": {
+                "NODE_ENV": "production"
+            }, 
+            "ignore_watch" : ["node_modules" ]
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+const getblock = require("./getblock")
+const getblockchaininfo = require("./getblockchaininfo")
+const getblockcount =  require("./getblockcount")
+const getblockfilter = require("./getblockfilter")
+const getblockhash = require("./getblockhash")
+const getblockheader = require("./getblockheader")
+const getmempoolancestors = require("./getmempoolancestors")
+const loadwallet = require("./wallet/loadwallet")
+const unloadwallet = require("./wallet/unloadwallet")
+
+exports.getblock = getblock ; 
+exports.getblockchaininfo=getblockchaininfo
+exports.getblockcount = getblockcount 
+exports.getblockfilter = getblockfilter 
+exports.getblockhash = getblockhash 
+exports.getblockheader = getblockheader 
+exports.getmempoolancestors = getmempoolancestors 
+exports.loadwallet = loadwallet 
+exports.unloadwallet = unloadwallet 
